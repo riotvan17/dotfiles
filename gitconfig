@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = eduards.jelizarovs@gmail.com
+	name = Eduards Jelizarovs
