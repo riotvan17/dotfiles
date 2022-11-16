@@ -1,9 +1,9 @@
 {
-    "[python]": {
+    "[python]":     {
         "editor.bracketPairColorization.enabled": false,
         "editor.guides.bracketPairs": false,
         "editor.tabSize": 4
-    },
+                    },
     "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
     "editor.fontSize": 14,
@@ -11,20 +11,20 @@
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
-    "editor.rulers": [
+    "editor.rulers":    [
         80,
         120
-    ],
+                        ],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
-    "emmet.includeLanguages": {
+    "emmet.includeLanguages":   {
         "erb": "html"
-    },
+                                },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
-    "files.exclude": {
+    "files.exclude":    {
         "__pycache__": true,
         "_site": true,
         ".asset-cache": true,
@@ -43,19 +43,19 @@
         "node_modules": true,
         "public/packs": true,
         "tmp": true
-    },
+                        },
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.watcherExclude": {
+    "files.watcherExclude":     {
         "**/audits/**": true,
         "**/coverage/**": true,
         "**/log/**": true,
         "**/node_modules/**": true,
         "**/tmp/**": true,
         "**/vendor/**": true
-    },
+                                },
     "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
@@ -67,9 +67,9 @@
     "python.linting.flake8Enabled": false,
     "python.linting.pylintEnabled": false,
     "python.terminal.activateEnvironment": false,
-    "ruby.lint": {
+    "ruby.lint":    {
         "rubocop": true
-    },
+                    },
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
@@ -80,4 +80,41 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    
+    "tabnine.experimentalAutoImports": false,
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"workbench.startupEditor": "none",
+	"terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular', menlo",
+	"workbench.colorCustomizations": 	{
+		"terminal.background":"#181921",
+		"terminal.foreground":"#ebdbb2",
+		"terminalCursor.background":"#c7c7c7",
+		"terminalCursor.foreground":"#c7c7c7",
+		"terminal.ansiBlack":"#1d2021",
+		"terminal.ansiBlue":"#458588",
+		"terminal.ansiBrightBlack":"#928374",
+		"terminal.ansiBrightBlue":"#99c6ca",
+		"terminal.ansiBrightCyan":"#7ec16e",
+		"terminal.ansiBrightGreen":"#b8bb26",
+		"terminal.ansiBrightMagenta":"#d3869b",
+		"terminal.ansiBrightRed":"#f42c3e",
+		"terminal.ansiBrightWhite":"#ebdbb2",
+		"terminal.ansiBrightYellow":"#fabd2f",
+		"terminal.ansiCyan":"#689d6a",
+		"terminal.ansiGreen":"#98971a",
+		"terminal.ansiMagenta":"#b16286",
+		"terminal.ansiRed":"#cc241d",
+		"terminal.ansiWhite":"#a89984",
+		"terminal.ansiYellow":"#d79921"
+										},
+	"explorer.confirmDelete": false,
+	"42header.username": "ejelizar",
+	"42header.email": "ejelizar@student.s19.be",
+	"settingsSync.ignoredSettings": [
+									
+									],
+	"[markdown]": 	{
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+					},
 }
