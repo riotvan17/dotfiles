@@ -17,7 +17,7 @@
                         ],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "emmet.includeLanguages":   {
         "erb": "html"
                                 },
@@ -60,7 +60,7 @@
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
-    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "python.defaultInterpreterPath": "~/.pyenv/versions/3.10.6/envs/lewagon/bin/python",
     "python.formatting.provider": "yapf",
     "python.languageServer": "Pylance",
     "python.linting.enabled": false,
@@ -80,7 +80,7 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
-    
+
     "tabnine.experimentalAutoImports": false,
     "editor.insertSpaces": false,
     "editor.detectIndentation": false,
@@ -107,14 +107,14 @@
 	"terminal.ansiRed":"#cc241d",
 	"terminal.ansiWhite":"#a89984",
 	"terminal.ansiYellow":"#d79921"
-					},
+										},
     "explorer.confirmDelete": false,
     "42header.username": "ejelizar",
     "42header.email": "ejelizar@student.s19.be",
     "settingsSync.ignoredSettings": 	[
-	    
-    					],
+
+    									],
     "[markdown]": 	{
 	"editor.defaultFormatter": "yzhang.markdown-all-in-one"
-			},
+										},
 }
